@@ -65,7 +65,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/insertQuirkyNameHere)
+- Frontend Mentor - [@insertQuirkyNameHere](https://www.frontendmentor.io/profile/insertQuirkyNameHere)
 - Twitter - [@b_senthooran](https://twitter.com/b_senthooran)
 
 ## Acknowledgments
