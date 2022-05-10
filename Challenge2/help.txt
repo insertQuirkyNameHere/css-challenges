@@ -1,0 +1,8 @@
+You are correct. Radio buttons are the right choice, nothing else makes sense.
+You can google accessibly styling radio buttons. But essentially you'll want to accessibly hide the actual input itself, and then style the label to look how you want
+
+@Alex Marshall Thank you for your help. I didn't think about hiding the actual input and styling the label.
+However doesn't this raise the issue of actually checking a radio button? How would I have to approach that? Maybe have a click event on the labels and use JS to select the corresponding button?
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/Adjacent_sibling_combinator to handle that, and allow styling of the label belonging to the input that is checked
+You don't need JS for this, you'll only need it to display the actual rating selected after the form is submitted

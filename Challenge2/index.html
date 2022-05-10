@@ -7,6 +7,7 @@
   <link rel="stylesheet" type="text/css" href="css/reset.css">
   <link rel="stylesheet" type="text/css" href="css/main.css">
   <link rel="stylesheet" type="text/css" href="css/card.css">
+  <link rel="stylesheet" type="text/css" href="css/rating.css">
   <title>Frontend Mentor | Interactive rating component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -20,7 +21,7 @@
   <!-- Rating state start -->
   <main class="card">
 
-    <div class="img-container">
+    <div id="star-img-container">
       <img src="./images/icon-star.svg" alt="">
     </div>
 
@@ -32,15 +33,24 @@
     </p>
     
     <div class="rating-container">
-      <button>1</button>
-      <button>2</button>
-      <button>3</button>
-      <button>4</button>
-      <button>5 </button>
+      <input type="radio" name="rating" value="1" id="rating-radio-1"/>
+      <label for="rating-radio-1">1</label>
+
+      <input type="radio" name="rating" value="2" id="rating-radio-2"/>
+      <label for="rating-radio-2">2</label>
+
+      <input type="radio" name="rating" value="3" id="rating-radio-3"/>
+      <label for="rating-radio-3">3</label>
+
+      <input type="radio" name="rating" value="4" id="rating-radio-4"/>
+      <label for="rating-radio-4">4</label>
+
+      <input type="radio" name="rating" value="5" id="rating-radio-5"/>
+      <label for="rating-radio-5">5</label>
     </div>
     
   
-    <button class="submit-btn">S U B M I T</button>
+    <button class="submit-btn">Submit</button>
   </main>
   
 
