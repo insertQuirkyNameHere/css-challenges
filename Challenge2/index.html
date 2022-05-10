@@ -19,7 +19,7 @@
 <body>
 
   <!-- Rating state start -->
-  <main class="card">
+  <main class="card rating-section">
 
     <div id="star-img-container">
       <img src="./images/icon-star.svg" alt="">
@@ -57,14 +57,23 @@
   <!-- Rating state end -->
 
   <!-- Thank you state start -->
-  <div class="thank-you">
-    You selected <!-- Add rating here --> out of 5
+  <main class="card thankYou-section">
+    <div id="thankyou-img-container">
+      <img src="./images/illustration-thank-you.svg" alt="">
+    </div>
 
-    Thank you!
+    <div class="selection-info">
+    </div>
 
-    We appreciate you taking the time to give a rating. If you ever need more support, 
-    don’t hesitate to get in touch!
-  </div>
+    <h1>Thank you!</h1>
+
+    <p>
+      We appreciate you taking the time to give a rating. If you ever need more support, 
+      don’t hesitate to get in touch!
+    </p>
+
+    <a id="back">Go back</a>
+  </main>
 
   <!-- Thank you state end -->
 
@@ -74,4 +83,5 @@
     Coded by <a href="https://github.com/insertQuirkyNameHere">Senthooran</a>.
   </div>
 </body>
+<script src="./js/index.js" type="text/javascript"></script>
 </html>

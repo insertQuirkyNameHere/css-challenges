@@ -44,3 +44,31 @@ h1{
     background-color: hsl(0, 0%, 100%);
     color: hsl(25, 97%, 53%);
 }
+
+.thankYou-section{
+    align-items: center;
+}
+
+.thankYou-section > p{
+    text-align: center;
+}
+
+.selection-info{
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(213, 20%, 21%);
+    padding: 15px;
+    border-radius: 25px;
+}
+
+.thankYou-section{
+    display: none;
+}
+
+#back{
+    align-items: flex-end;
+}
+
+#back:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
