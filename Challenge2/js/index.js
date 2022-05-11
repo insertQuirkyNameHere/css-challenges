@@ -1,6 +1,6 @@
 const button = document.querySelector('.submit-btn');
 
-button.addEventListener('click', ()=>{
+button.addEventListener('click', (event)=>{
     const thankYou = document.querySelector('.thankYou-section');
     const ratingSection = document.querySelector('.rating-section');
     const radio = document.querySelector('input[type="radio"]:checked');
@@ -11,6 +11,7 @@ button.addEventListener('click', ()=>{
         selectionInfo.textContent = `You selected ${number} out of 5`
         thankYou.style.display = 'flex';
         ratingSection.style.display = 'none';
+        event.preventDefault();
 
         document.getElementById('back').addEventListener('click', ()=>{
             thankYou.style.display = 'none';

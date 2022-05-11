@@ -92,4 +92,6 @@ const radio = document.querySelector('input[type="radio"]:checked');
 
 ## Acknowledgments
 
-Shoutout to [Alex Marshall](https://www.linkedin.com/in/alex-k-marshall83/?originalSubdomain=uk) for helping me out with the radio buttons styling.
+Shoutout to [Alex Marshall](https://www.linkedin.com/in/alex-k-marshall83/?originalSubdomain=uk) for helping me out with the approach to radio buttons styling.
+
+Huge thanks to [FluffyKas](https://www.frontendmentor.io/profile/FluffyKas) for going through my code and giving such great and detailed feedback.
