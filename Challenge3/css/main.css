@@ -1,0 +1,54 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    margin: auto 0px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+    max-width: 320px;
+}
+
+.card > *{
+    margin-bottom: 15px;
+}
+
+.card-text-content > *{
+    margin-bottom: 15px;
+}
+
+.nft-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nft-info > div{
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+}
+
+.time-left > img{
+    width: 24px;
+    height: 24px;
+}
+
+.card-author{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    align-items: center;
+}
+
+.attribution{
+    margin-top: auto;
+}
