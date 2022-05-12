@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800&display=swap');
+
 body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    color: hsl(215, 51%, 70%);
 }
 
 main{
@@ -10,20 +15,40 @@ main{
     margin: auto 0px;
 }
 
+
+/****************************************CARD STYLING*****************************************************/
 .card{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     padding: 20px;
     max-width: 320px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
 }
 
 .card > *{
     margin-bottom: 15px;
 }
 
+/****************************************CARD IMAGE STYLING*****************************************************/
+.card-img-container{
+    border-radius: 15px;
+}
+
+
+/****************************************CARD TEXT AREA*****************************************************/
 .card-text-content > *{
     margin-bottom: 15px;
+}
+
+h1{
+    color: hsl(0, 0%, 100%);
+    font-size: 1.5em;
+}
+
+hr{
+    color: hsl(215, 32%, 27%);
 }
 
 .nft-info{
@@ -37,11 +62,17 @@ main{
     gap: 5px;
 }
 
+.eth{
+    color: hsl(178, 100%, 50%);
+    font-weight: 550;
+}
+
 .time-left > img{
     width: 24px;
     height: 24px;
 }
 
+/****************************************CARD AUTHOR AREA STYLING*****************************************************/
 .card-author{
     display: flex;
     justify-content: flex-start;
@@ -49,6 +80,28 @@ main{
     align-items: center;
 }
 
+.card-author > img{
+    width: 15%;
+    border: 2px solid hsl(0, 0%, 100%);
+    border-radius: 100%;
+}
+
+.author-link{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+.author-link:hover{
+    text-decoration: none;
+    color: hsl(178, 100%, 50%); 
+}
+
+/****************************************FOOTER STYLING*****************************************************/
 .attribution{
     margin-top: auto;
+}
+
+.classy-class{
+    position: absolute;
+    display: none;
 }
