@@ -105,3 +105,7 @@ hr{
     position: absolute;
     display: none;
 }
+
+.secret{
+    display: none;
+}
