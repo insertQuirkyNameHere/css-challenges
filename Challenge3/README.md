@@ -60,7 +60,7 @@ Users should be able to:
 ```
 
 ```css
-.image-container{
+.img-container{
   position: relative;
 }
 
@@ -88,7 +88,7 @@ Hope to continue to work on overlays and the position properties
 
 ### Useful resources
 
-- [dcode's](https://www.youtube.com/channel/UCjX0FtIZBBVD3YoCcxnDC4g)[video](https://www.youtube.com/watch?v=exb2ab72Xhs) helped me to understand how to overlay images with text or anything else in a clear and precise manner.
+- [dcode's](https://www.youtube.com/channel/UCjX0FtIZBBVD3YoCcxnDC4g) [video](https://www.youtube.com/watch?v=exb2ab72Xhs) helped me to understand how to overlay images with text or anything else in a clear and precise manner.
 - [Andy's](https://twitter.com/piccalilli_) [blog post](https://piccalil.li/blog/a-modern-css-reset/) on CSS resets in the modern era
 
 
