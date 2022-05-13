@@ -6,10 +6,10 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="./css/reset.css" type="text/css">
   <link rel="stylesheet" href="./css/main.css" type="text/css">
+  <link rel="stylesheet" href="./css/secret.css" type="text/css">
   
   <title>Frontend Mentor | NFT preview card component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
@@ -54,7 +54,7 @@
 
 
   
-  <!------------------- Please ignore this part, it's a secret message of sorts xD --------------------------->
+  <!------------------- Please ignore this part, it's a secret message of sorts --------------------------->
 
   <div class="classy-class">
     <button class="secret-btn">Click</button>
@@ -67,13 +67,13 @@
         <li>Just one main css file</li>
         <li>Used em for font-size</li>
         <li>Used the 'modern css reset'</li>
-        <li>Used the genius comment way to title different parts of my CSS</li>
-        <li>Didnt use the height property for any of my containers!</li>
+        <li>Used the genius comment way to title different parts of my CSS xD</li>
+        <li>Didnt use the height property for any of my containers! (except the image overlay, think it was necessary here)</li>
       </ol>
       <p>Again, thank you for all those great tips!</p>
     </div>
   </div>
-  <!------------------- Please ignore this part, it's a secret message of sorts xD --------------------------->
+  <!------------------- Please ignore this part, it's a secret message of sorts --------------------------->
 
 
 
@@ -86,10 +86,13 @@
 <script>
   const secretBtn = document.querySelector('.secret-btn');
   secretBtn.addEventListener('click', ()=>{
+    
     const secret = document.querySelector('.secret');
-    secret.style.display = "block";
     const mainEle = document.querySelector('main');
+    secret.style.display = 'block';
     mainEle.style.display = 'none';
+    secretBtn.style.display = 'none'
+
   });
 </script>
 <!--End of secret script-->
