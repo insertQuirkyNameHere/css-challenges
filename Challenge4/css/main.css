@@ -1,0 +1,90 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: auto;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    max-width: 375px;
+    border-radius: 15px;
+}
+
+.card > div{
+    margin-bottom: 15px;
+}
+
+.card-img > img{
+    border-radius: 15px 15px 0px 0px;
+}
+
+.card-text-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px auto;
+    width: 80%;
+}
+
+.card-text > p{
+    text-align: center;
+}
+
+.card-text-content > div{
+    margin-bottom: 20px;
+}
+
+
+.plan{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.plan > *{
+    margin-right: 10px;
+}
+
+.plan > img{
+    width: 16%;
+    height: 16%;
+}
+
+.plan-change{
+    margin-left: auto;
+}
+
+.order{
+    width: 80%;
+    text-align: center;
+}
+
+button{
+    display: block;
+    border-radius: 7px;
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    padding: 5px;
+}
+
+.attribution{
+    margin-top: auto;
+}
