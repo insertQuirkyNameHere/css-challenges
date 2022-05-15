@@ -53,7 +53,7 @@ I used a desktop first approach. Will maybe try a mobile first approach in futur
 
 ### Useful resources
 
-- [W3Schools'](https://www.w3schools.com/cssref/pr_background-image.asp background image reference
+- [W3Schools'](https://www.w3schools.com/cssref/pr_background-image.asp) background image reference
 
 ## Author
 
