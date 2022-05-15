@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
 body{
     display: flex;
     flex-direction: column;
+    background-color: hsl(225, 100%, 94%);
     background-image: url(../images/pattern-background-desktop.svg);
     background-repeat: no-repeat;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 0.8rem;
 }
 
 main{
@@ -15,12 +21,13 @@ main{
 .card{
     display: flex;
     flex-direction: column;
-    max-width: 375px;
+    max-width: 320px;
     border-radius: 15px;
+    background-color: hsl(0, 100%, 100%);
 }
 
 .card > div{
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 
 .card-img > img{
@@ -41,12 +48,20 @@ main{
     width: 80%;
 }
 
+.card-text > h1{
+    color: hsl(223, 47%, 23%);
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+
 .card-text > p{
     text-align: center;
+    color: hsl(224, 23%, 55%);
+    font-size: 0.9rem;
 }
 
 .card-text-content > div{
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 
@@ -56,6 +71,7 @@ main{
     width: 80%;
     padding: 10px;
     border-radius: 7px;
+    background-color: hsl(225, 100%, 98%);
 }
 
 .plan > *{
@@ -67,8 +83,22 @@ main{
     height: 16%;
 }
 
+.plan-pricing{
+    color: hsl(224, 23%, 55%);
+}
+
 .plan-change{
     margin-left: auto;
+}
+
+.plan-change > a{
+    color: hsl(245, 75%, 52%);
+    font-weight: 900;
+}
+
+.plan-change > a:hover{
+    color: hsl(245, 60%, 65%);
+    text-decoration: none;
 }
 
 .order{
@@ -82,9 +112,34 @@ button{
     width: 100%;
     margin-bottom: 20px;
     border: none;
-    padding: 5px;
+    padding: 10px;
+    background-color: hsl(245, 75%, 52%);
+    color: rgb(256, 256, 256);
+    font-weight: 900;
+}
+
+button:hover{
+    background-color: hsl(245, 60%, 65%);
+    cursor: pointer;
+}
+
+.cancel-order > a{
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.cancel-order > a:hover{
+    color: hsl(223, 47%, 23%);
 }
 
 .attribution{
     margin-top: auto;
+}
+
+@media screen and (max-width: 375px){
+    body{
+        background-image: url(../images/pattern-background-mobile.svg);
+        background-repeat: no-repeat;
+    }
 }
