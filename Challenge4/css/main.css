@@ -87,6 +87,10 @@ main{
     height: 16%;
 }
 
+.plan h2{
+    font-size: 0.9rem;
+}
+
 .plan-pricing{
     color: hsl(224, 23%, 55%);
 }
