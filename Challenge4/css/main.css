@@ -6,7 +6,7 @@ body{
     flex-direction: column;
     background-color: hsl(225, 100%, 94%);
     background-image: url(../images/pattern-background-desktop.svg);
-    background-repeat: no-repeat;
+    background-repeat: repeat-x;
     font-family: 'Red Hat Display', sans-serif;
     font-size: 0.8rem;
 }
